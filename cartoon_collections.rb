@@ -1,7 +1,7 @@
 def roll_call_dwarves # code an argument here
  new_dwarves = []
  dwarves.each.with_index(1) do |dwarf, i|
-    "#{i + 1}. #{dwarf}"
+    new_dwarves<< "#{i + 1}. #{dwarf}"
   end
   puts new_dwarves.join(" ")
 end
