@@ -1,4 +1,4 @@
-def roll_call_dwarves # code an argument here
+def roll_call_dwarves(dwarves)
  new_dwarves = []
  dwarves.each.with_index(1) do |dwarf, i|
     new_dwarves<< "#{i + 1}. #{dwarf}"
@@ -8,7 +8,7 @@ end
 
 
 
-def summon_captain_planet# code an argument here
+def summon_captain_planet(array)
  array.collect do |names|
     names.capitalize << "!"
   end
